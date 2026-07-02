@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="bg_mode"
+        android:title="Background Mode"
+        android:entries="@array/bg_modes"
+        android:entryValues="@array/bg_modes_values"
+        android:defaultValue="standard" />
+
+    <CheckBoxPreference
+        android:key="show_calendar"
+        android:title="Show Calendar"
+        android:defaultValue="true" />
+
+    <Preference
+        android:title="by ntvdm"
+        android:summary="yes"
+        android:enabled="false" />
+</PreferenceScreen>

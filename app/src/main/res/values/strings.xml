@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ClockWiz</string>
+    <string-array name="bg_modes">
+        <item>Standard</item>
+        <item>Like Start</item>
+    </string-array>
+    <string-array name="bg_modes_values">
+        <item>standard</item>
+        <item>wallpaper</item>
+    </string-array>
+</resources>
